@@ -1,0 +1,72 @@
+Tema capitolul 6.
+
+Mostenire
+
+Sa se creeze un program prin care se simuleaza un sistem de vanzare al unor produse de pe un magazin online.
+In contextul magazinului, se va defini un concept de produs. Ca si date ale acestui produs se cer urmatoarele.
+Se defineste un nume al produsului, un pret si discount. (ATENTIE: pentru discount se va cere o verificare sa fie un numar intre 0 si 100 atunci cad va fi setat).
+In metoda produs se va implementa o metoda care calculeaza pretul cu discountul aplicat.
+
+In cadrul magazinului online exista 3 tipuri de produse: Imbracaminte, Ingrijire Personala si Electronice.
+Se vor defini, aditional urmatoarele concepte pentru produse:
+Imbracaminte: tipul de imbracaminte (pantaloni, bluza, acesoriu)
+Ingrijire Persoanala: variabila ce determina daca produsul poate fi returnat sau nu 
+----------------------(Anumite produse care sunt desfacute nu pot fi returnate de exemplu un aparat de ras)
+Electronice: variabila ce determina voltajul.
+----------------------Valorile permise pentru voltaj vor fi doar intre 220 si 240 (Dupa reglementarea europeana). In cazul in care se va introduce o alta valoare pentru voltaj, se va genera un mesaj de atentionare.
+
+
+Dupa declararea corecta a claselor se cer urmatoarele. (Pentru aceasta creati o clasa separata "Main" unde veti scrie metoda main)
+
+Se va citi de la tastatura datele unui produs de tip Imbracaminte.
+1. In cazul in care produsul citit este de tip pantaloni, se va aplica un discount de 10% si se va afisa pretul final dupa discount.
+2. In cazul in care produsul citit este de tip bluza, se va aplica un discount de 20% si se va afisa pretul final dupa discount.
+3. In cazul in care produsul citit este de tip accesoriu, se va aplica un discount de 30% si se va afisa pretul final dupa discount.
+
+
+Se va citi de la tastatura datele unui produs de tip Ingrijire Personala.
+1. Daca produsul poate fi returnat nu se va aplica niciun discount
+2. Daca produsul nu poate fi returnat se va aplica un discount de 20% in favoarea clientului.
+
+Se va citi de la tastatura datele unui produs de tip Electronice.
+1. In cazul in care voltajul introdus este altul decat cel cuprins intre 220 si 240 se va afisa un mesaj de eroare "Produsul nu poate fi folosit la o priza ce prevede reglementarile europene"
+
+
+Interfete. Polimorfism.
+
+Se cere sa se creeze un program care simuleaza un sistem de credite bancare.
+Se cer urmatoarele implementari.
+1. O clasa ce defineste o persoana si datele acesteia:
+-numele persoanei
+-varsta persoanei
+-CNP
+-salariu net
+2. O interfata numita "UnitateBancara" cu urmatoarele metode declarate:
+- O metoda pentru a calcula cretitul. Metoda trebuie sa primeasca ca parametrul un obiect de tipul Persoana
+- O metoda care va calcula dobanda creditului. Metoda trebuie sa primeasca ca parametrul un obiect de tipul Persoana
+
+3. Se vor crea doua clase ce vor implementa interfata creata precedent.
+a. Clasa BancaPentruLocuinte
+- In aceasta banca creditul este salariul net al persoanei inmultit cu 100
+- Dobanda creditului este de 5%
+b. Clasa BancaPentruNevoiPersonale
+- In aceasta banca creditul este salariul net al persoanei inmultit cu 10
+- Dobanda creditului este de 8%
+
+Atentie: Dobanda se va calcula din creditul total.
+
+Cerinte: (Pentru aceasta creati o clasa separata "Main" unde veti scrie metoda main)
+1.Se cere sa se declare un obiect de tipul UnitateBancara (Atentie doar declarati in prima faza)
+2.Se cere sa se citeasca de la tastatura datele unei persoane corespunzator.
+ a. Daca persoana are varsta mai mica decat 18 ani, se va afisa un mesaj "Persoana nu este eligibila pentru un credit" si se va iesi din program.
+ b. Daca persoana are varsta cuprinsa intre 18 si 40 de ani unitatea bancara va fi una de tipul BancaPentruLocuinte.
+ c. Daca persoana are varsta peste 40 de ani unitatea bancara va fi una de tipul BancaPentruNevoiPersonale.
+
+Sa se calculeze si sa se afiseze limita maxima a creditului si dobanda persoanei in functie de criteriile de mai sus.
+
+
+Pentru clase abstracte sa refceti problema de la interfete. In loc de interfata o sa folositi o clasa abstracta. (Explicati diferentele)
+
+
+
+

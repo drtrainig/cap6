@@ -1,0 +1,27 @@
+Link-uri uile:
+Mostenire:
+https://www.youtube.com/watch?v=6E6fW-iF2fY&ab_channel=RamonNastase - Acesta este un exemplu de viedeo. Puteti sa va uitati la video-uri de genul in Java (Chiar de pe canalul asta).
+https://www.w3schools.com/java/java_inheritance.asp
+https://www.tutorialspoint.com/java/java_inheritance.htm
+
+Clasa Object - Este clasa de baza in java. Atentie: Este cea mai de top clasa in Java. Orice clasa mosteneste clasa asta in Java by default (indiferent daca nu observam sintaxa "extends Object")
+https://www.javatpoint.com/object-class
+O sa va rog sa va uitati si pe metodele "toString()" si "equals()" din clasa obiect. (Faceti legatura aici cu ce am discutat la Stringuri referitor la equals)
+Va rog sa va mai documentati singuri pe aceste metode. Video-uri explicative pe youtube de exemplu. (Java Object toStirng, Java equals). Aditional puteti urmari metoda (hashCode())
+
+Interfete
+https://www.javatpoint.com/interface-in-java
+https://www.w3schools.com/java/java_interface.asp
+
+https://www.geeksforgeeks.org/interfaces-in-java/ - Inainte de acest link, rog sa va uitati pe keyword-ul final si la ce e bun. 
+https://www.baeldung.com/java-final
+https://www.baeldung.com/java-static
+Aditional, va recomand sa va uitati la static
+
+
+Clase abstracte
+http://elf.cs.pub.ro/poo/laboratoare/clase-abstracte-interfete
+https://uncoded.ro/clase-abstracte-si-interfete-java/
+
+
+Daca aveti intrebari referitoare la topicurile din link-uri le putem discuta.
